@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+img {
+  width: 200px;
+  height: auto;
+}
+input {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+button {
+  background: #eee;
+  color: #888;
+  border: none;
+  padding: 5px 10px;
+}
+div[tabindex="0"] {
+  padding: 10px;
+  background: #f0f0f0;
+  /* フォーカス時のアウトラインなし */
+}
+input:focus, button:focus, a:focus {
+  outline: none;
+}
+.low-contrast {
+  color: #aaa;
+  background: #fff;
+}
